@@ -1,0 +1,24 @@
+{
+    "name": "dex/skeleton-php-package",
+    "description": "Skeleton for PHP packages",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eder Soares",
+            "email": "edersoares@me.com",
+            "homepage": "https://edersoares.me",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dex\\Skeleton\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dex\\Skeleton\\Tests\\": "tests/"
+        }
+    }
+}
